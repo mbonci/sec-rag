@@ -1,0 +1,31 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Logs
+logs/*.log
+
+# HuggingFace model cache (large, re-downloads on first run)
+.cache/
+
+# Raw expanded data (zip is sufficient)
+data/Documents/
+data/__MACOSX/
+data/MANIFEST.md
+
+# Pipeline outputs (reproducible; large binary files)
+outputs/intermediate/
+outputs/final/chunks.jsonl
+outputs/final/chunks.parquet
+outputs/final/index_metadata.parquet
+outputs/final/embeddings.npy
+outputs/final/index.faiss
