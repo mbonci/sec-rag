@@ -70,8 +70,11 @@ python -m spacy download en_core_web_sm
 # 3. Set your OpenAI key (used for TOC extraction + table summaries, cached after first run)
 echo "OPENAI_API_KEY=sk-..." > .env
 
-# 4. Unzip the documents
+# 4. Extract the sample corpus (5 filings included in the repo)
 cd data && unzip Documents.zip && cd ..
+
+# Optional: download the full 50-filing corpus from SEC EDGAR (no API key required)
+# python data/download_full_corpus.py
 
 # 5. Run the full pipeline
 python scripts/run_pipeline.py --standardize --use-llm-table-summaries
