@@ -1,0 +1,7 @@
+# Minimal dependencies for running the test suite in CI.
+# Does not include spaCy, torch, sentence-transformers, or mlx-lm,
+# which are only needed for the full pipeline and RAG demo.
+python-dotenv>=1.0.0
+rapidfuzz>=3.0.0
+pandas>=2.0.0
+pytest>=7.0.0

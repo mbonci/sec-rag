@@ -22,10 +22,8 @@ data/Documents/
 data/__MACOSX/
 data/MANIFEST.md
 
-# Pipeline outputs (reproducible; large binary files)
+# Pipeline outputs (reproducible; large binary/generated files)
 outputs/intermediate/
-outputs/final/chunks.jsonl
-outputs/final/chunks.parquet
-outputs/final/index_metadata.parquet
-outputs/final/embeddings.npy
-outputs/final/index.faiss
+outputs/final/
+outputs/costs/
+outputs/evaluation/section/
