@@ -26,4 +26,5 @@ data/MANIFEST.md
 outputs/intermediate/
 outputs/final/
 outputs/costs/
-outputs/evaluation/section/
+outputs/cache/
+outputs/evaluation/
